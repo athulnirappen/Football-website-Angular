@@ -1,0 +1,86 @@
+<div class="container mt-10 p-5">
+  <h1 class="text-center text-2xl font-bold uppercase">Add Players</h1>
+
+  <div class="mt-10 p-5 shadow-lg w-[500px] mx-auto">
+    <form class="flex flex-col items-center justify-between gap-3">
+      <div class="mt-3">
+        <input
+        name="id"
+        #id="ngModel"
+        [(ngModel)]="player.id"
+          type="text"
+          id=" Id"
+          placeholder=" Enter Id"
+          class="w-[300px] border py-2 px-5 rounded"
+        />
+      </div>
+      <div class="mt-3">
+        <input
+        #name="ngModel"
+        name="name"
+        [(ngModel)]="player.name"
+          type="text"
+          id=" name"
+          placeholder=" Enter Name"
+          class="w-[300px] border py-2 px-5 rounded"
+        />
+      </div>
+      <div class="mt-3">
+        <input
+        #image="ngModel"
+        name="image"
+        [(ngModel)]="player.image"
+          type="text"
+          id=" image"
+          placeholder=" Enter image"
+          class="w-[300px] border py-2 px-5 rounded"
+        />
+      </div>
+      <div class="mt-3">
+        <input
+        #nationality="ngModel"
+        name="nationality"
+        [(ngModel)]="player.nationality"
+          type="text"
+          id=" nationality"
+          placeholder=" Enter Nationality"
+          class="w-[300px] border py-2 px-5 rounded"
+        />
+      </div>
+      <div class="mt-3">
+        <input
+        #age="ngModel"
+        name="age"
+        [(ngModel)]="player.age"
+          type="text"
+          id=" age"
+          placeholder=" Enter Age"
+          class="w-[300px] border py-2 px-5 rounded"
+        />
+      </div>
+      <div class="mt-3">
+        <input
+        #description="ngModel"
+        name="description"
+        [(ngModel)]="player.description"
+          type="text"
+          id=" desc"
+          placeholder=" Enter Description"
+          class="w-[300px] border py-2 px-5 rounded"
+        />
+      </div>
+
+      <div class="mt-3">
+        <button
+          class="px-5 py-2 border rounded bg-yellow-400 me-3"
+          (click)="addplayers()"
+        >
+          Save
+        </button>
+        <button class="px-5 py-2 border rounded bg-red-800 text-white" (click)="cancel()">
+          Cancel
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

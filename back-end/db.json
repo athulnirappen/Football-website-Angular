@@ -1,0 +1,28 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Lional Messi",
+      "image": "https://i.pinimg.com/736x/9a/6d/14/9a6d14481f3480079f8f5bf0a2fc4989.jpg",
+      "nationality": "Argentina",
+      "age": 24,
+      "description": "Lionel Andrés 'Leo' Messi is an Argentine professional footballer who plays as a forward for and captains both Major League Soccer club Inter Miami and the Argentina national team"
+    },
+    {
+      "id": "2",
+      "name": "Neymar Jr ",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFwPvhLDcEZUt_n7kqAeVpis7z7A11mGoWxboIbcqRuw&s",
+      "nationality": "Brazil",
+      "age": "22",
+      "description": "Neymar da Silva Santos Júnior, also known as Neymar Júnior, is a Brazilian professional footballer who plays as a forward for Saudi Pro League club Al Hilal and the Brazil national team"
+    },
+    {
+      "id": "3",
+      "name": "Luis Suárez",
+      "image": "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/855_suarez_luis.jpg",
+      "nationality": "Uruguay",
+      "age": "25",
+      "description": "Luis Alberto Suárez Díaz is a Uruguayan professional footballer who plays as a striker for Major League Soccer club Inter Miami and the Uruguay national team. Nicknamed \"El Pistolero\", he is regarded as one of the best players of his generation and one of the greatest strikers of all time"
+    }
+  ]
+}
